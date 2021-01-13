@@ -1,0 +1,21 @@
+			<div className="header__extra">
+				<Link to="/">
+					<img
+						className="header__logo"
+						src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+						alt=""
+					/>
+				</Link>
+				<Link to="/">Shop by Category</Link>
+				<div className="header__search header__option">
+					<input className="header__input header__option" type="text" />
+					{/* look for beter select options */}
+					<select class="categories__select">
+						<option>All Categories</option>
+					</select>
+					<button className="header__searchBtn">Search</button>
+					<Link to="advanced">
+						<span>Advanced</span>
+					</Link>
+				</div>
+			</div>
